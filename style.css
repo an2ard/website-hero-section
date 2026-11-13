@@ -21,6 +21,16 @@ body {
     max-width: 550px; /* Limits the text width */
 }
 
+/* Styles the small chair image */
+.chair-image {
+    width: 100px; /* Sets the image width */
+    height: 100px; /* Sets the image height */
+    object-fit: cover; /* Keeps the image proportional */
+    border-radius: 15px; /* Creates rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.18); /* Adds a soft shadow */
+    margin-bottom: 15px; /* Adds space below the image */
+}
+
 /* Styles the small introductory text */
 .tagline {
     color: #9A805F; /* Sets an earthy brown color */
@@ -39,14 +49,14 @@ h1 {
 /* Styles the secondary heading */
 h2 {
     font-size: 27px; /* Sets the subheading size */
-    color: #84412f; /* Uses a warm brown color */
+    color: #666666; /* Uses a warm brown color */
     font-weight: normal; /* Keeps the text regular */
 }
 
 /* Styles the description */
 .description {
     font-size: 17px; /* Sets the paragraph size */
-    line-height: 1.8; /* Improves text readability */
+    line-height: 1.4; /* Improves text readability */
     color: #68685E; /* Uses a soft gray color */
     margin-bottom: 30px; /* Adds space below the paragraph */
 }
@@ -61,7 +71,7 @@ h2 {
     border-radius: 30px; /* Creates rounded edges */
     font-weight: bold; /* Makes the text bold */
     transition: background-color 0.3s ease; /* Creates a smooth color transition */
-    font-size: 24px;
+    font-size: 24px; /* Sets the button text size */
 }
 
 /* Changes the button when hovering */
